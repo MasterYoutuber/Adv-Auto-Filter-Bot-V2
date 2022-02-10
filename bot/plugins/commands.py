@@ -28,7 +28,13 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = "{file_name}\n\n╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+♻️ 𝙅𝙊𝙄𝙉 :- @EF_Linkz
+♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates
+♻️ 𝙅𝙊𝙄𝙉 :- @efcinema
+♻️ 𝙅𝙊𝙄𝙉 :- @ef_new_realese
+♻️ 𝙅𝙊𝙄𝙉 :- @efmovieshub
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
